@@ -6,4 +6,4 @@ jobs:                      # Lista de tareas
     runs-on: ubuntu-latest # Runner: En un servidor Linux de GitHub
     steps:                 # Pasos a seguir
       - name: Decir hola
-        run: echo "¡Hola mundo! Este es mi primer workflow desde cero."
+        run: echo "Este es mi primer workflow"

@@ -1,0 +1,9 @@
+name: Mi Primer Workflow    # Nombre
+on: [push]                 # Evento: Cada que alguien suba cambios
+
+jobs:                      # Lista de tareas
+  saludo:                  # Nombre de la tarea
+    runs-on: ubuntu-latest # Runner: En un servidor Linux de GitHub
+    steps:                 # Pasos a seguir
+      - name: Decir hola
+        run: echo "¡Hola mundo! Este es mi primer workflow desde cero."
